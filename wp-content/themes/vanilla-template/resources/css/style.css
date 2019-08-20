@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background: black;
+    color: firebrick;
+}
+
+.col {
+    background: darkgray;
+    border-style: solid;
+    border-color: darkred;
+}
+
+a {
+    color: red
+}
+
+h1 {
+    color: white
+}
