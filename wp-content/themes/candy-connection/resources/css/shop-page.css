@@ -1,5 +1,42 @@
 body {
+    padding-top: 56px;
+    margin: 0;
+    background-image: linear-gradient(rgb(137, 65, 67), rgb(160, 218, 255));
+  }
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+  
+  ul.topnav li {
+      float: none;
+      display: inline-block;
+    }
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
     text-align: center;
-    background: black;
-    color: greenyellow;
-}
+    padding: 14px 55px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: aquamarine;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  .carousel-inner { background-color: none;}
+  
+  
+  
+  

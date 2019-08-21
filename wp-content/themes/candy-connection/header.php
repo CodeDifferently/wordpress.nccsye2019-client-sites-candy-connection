@@ -6,32 +6,21 @@
 
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <ul class="topnav" align="center">
+      <center>
+      <li><img src="./cc-logo.PNG" height="auto" width="45%" id="Logo"></li>  
+      <li><a class="active" href="..\Main-Page\index.html">Home</a></li>
+      <li><a href="..\about\index.html">About</a></li>
+      <li><a href="..\Cotton-Candy-Landing\index.html">Cotton Candy</a></li>
+      <li><a href="..\Italian-Ice-Landing\index.html">Italian Ice</a></li>
+      <li><a href="..\Vender-Landing\index.html">Special Events</a></li>
+      <li> <a href="..\Shopping-Cart\index.html" class="icon-button shopping-cart fa-lg"><i class="fa fa-shopping-cart"></i><span></span></a>
+      <li><a href="https://www.instagram.com/candyconnections/" align="Right" target="_blank"><i class="fa fa-instagram"></i></a>
+      <li><a href="https://www.facebook.com/CandyConnections/" align="Right" target="_blank"><i class="fa fa-facebook"></i></a>
+
+
+    </center>
+    </ul>
 
   
 
