@@ -6,10 +6,11 @@
 
 
   <!-- Navigation -->
+  
   <ul class="topnav" align="center">
       <center>
-      <li><img src="./cc-logo.PNG" height="auto" width="45%" id="Logo"></li>  
-      <li><a class="active" href="..\Main-Page\index.html">Home</a></li>
+      <li><img src="wp-content/themes/candy-connection/resources/img/cc-logo.PNG" height="auto" width="45%" id="Logo"></li>  
+      <li><a class="active" href="..\index.html">Home</a></li>
       <li><a href="..\about\index.html">About</a></li>
       <li><a href="..\Cotton-Candy-Landing\index.html">Cotton Candy</a></li>
       <li><a href="..\Italian-Ice-Landing\index.html">Italian Ice</a></li>

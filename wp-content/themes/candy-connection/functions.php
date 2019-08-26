@@ -29,6 +29,7 @@ function load_stylesheets() {
     register_and_enqueue_local_style('shop-page', 'shop-page.css');
     register_and_enqueue_local_style('purchase-page', 'purchase-page.css');
     register_and_enqueue_local_style('about-page', 'about-page.css');
+    register_and_enqueue_local_style('bootstrap-css', 'bootstrap.css');
 }
 
 
